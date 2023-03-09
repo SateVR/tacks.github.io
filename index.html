@@ -213,9 +213,9 @@
 		function lovePost(id) {
 			let heart = document.getElementById("heart-image-"+id)
 			if(heart.src.indexOf("active") === -1) {
-				heart.src = "tweeter/images/heart-active.svg"
+				heart.src = "tacks.github.io/images/heart-active.svg"
 			} else {
-				heart.src = "tweeter/images/heart.svg"
+				heart.src = "tacks.github.io/images/heart.svg"
 			}
 		}
 		function deletePost(id) {
@@ -310,7 +310,7 @@
 	<article id="article-container-1">
 		<header>
 			<button class="close" onclick="deletePost(1)">
-				<img src="tweeter/images/close.png" height="15" width="15"/>
+				<img src="tacks.github.io/images/close.png" height="15" width="15"/>
 			</button>
 			<div class="avatar">
 				<img src="avatar.png" height="40" width="40"/>
@@ -327,7 +327,7 @@
 				<time>02/28/23 22:13:41</time>
 			</p>
 			<button class="heart" onclick="lovePost(1)">
-			<img src="tweeter/images/heart.svg" id="heart-image-1" height="15" width="16"/>
+			<img src="tacks.github.io/images/heart.svg" id="heart-image-1" height="15" width="16"/>
 		</button>
 		</footer>
 	</article>
